@@ -12,6 +12,11 @@ The main files for this project can be found under `notebooks`:
    - Loaded the raw data, doing some basic inspections for data types and null values, and saving it as a usable file.
 - `2_eda.ipynb`:
    - An in depth analysis of the data to understand feature distributions and understand what what features might be the most critical in classifiying emlpoyees. Histograms were created to visualize distributions, correlation heatmaps were made to see the relationships between features, countplots represetned the discrete data and box plots explored the continuous data.
+   - The main findings here were that:
+      - The Data is imbalanced
+      - 
+- `3_preprocessing.ipynb`:
+   - At this stage, most the data was still in its raw categircal or ordinal form. I applied a `LabelEncoder` and `OrdinalEncoder` to take care of this. Lastly, for some of the featurers that did not have too many unique values, I applied a `OneHotEncoder` (I only considered a few features so the number of columns would not become too cumbersome). I also handled the 
 
 ## [Data](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 The dataset used for this project comes from Kaggle, but originally provided by IBM Data Scientists for research purposes.
