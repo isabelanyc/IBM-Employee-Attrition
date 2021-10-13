@@ -8,7 +8,9 @@ With the rise of Data Science over the past few years, companies are finding mor
 
 The main files for this project can be found under `notebooks`:
 
-- `data_wrangling.ipynb`: Loading the raw data, doing some basic inspections for data types and null values, and saving it as a usable file.
+- `1_data_wrangling.ipynb`: 
+   - Loading the raw data, doing some basic inspections for data types and null values, and saving it as a usable file.
+- `2_eda.ipynb`:
 
 ## [Data](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 The dataset used for this project comes from Kaggle, but originally provided by IBM Data Scientists for research purposes.
