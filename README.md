@@ -41,7 +41,7 @@ A report and presentation for this project can be found in `reports`.
 The best performing model turned out to be Gradient Boosting with >.90 F1 scores for the employees classified as attrited and non-attrited:
 
 ```
-precision    recall  f1-score   support
+              precision    recall  f1-score   support
 
            0       0.90      0.93      0.92       370
            1       0.93      0.90      0.91       370
@@ -53,5 +53,5 @@ weighted avg       0.92      0.91      0.91       740
 
 The ROC curve further validates the models perfomance: 
 <p align="center">
-  <img src="./reports/images/roc.png"  width="500" height="200">
+  <img src="./reports/images/roc.png"  width="500" height="300">
 </p>
